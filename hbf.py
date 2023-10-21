@@ -7,7 +7,7 @@ def plot_results(before, after):
     plt.subplots_adjust(wspace=0.02)
     
     plt.subplot(1, 2, 1)
-    plt.imshow(cv2.cvtColor(before, cv2.COLOR_BGR2RGB))
+    plt.imshow(before)
     plt.title("Antes", fontsize=20)
     plt.axis('off')
 
